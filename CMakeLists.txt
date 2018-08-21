@@ -8,7 +8,7 @@ SET(PROJECT_URL "https://redmine.laas.fr/projects/pyrene-talos/repository/pyrene
 
 SETUP_PROJECT()
 
-FOREACH(dir grabHandrail15 multicontact15 multicontact15SingleStep multicontact15HalfStep climb15cmStairsNoHandrail)
+FOREACH(dir grabHandrail15 identification multicontact15 multicontact15SingleStep multicontact15HalfStep climb15cmStairsNoHandrail)
   INSTALL(DIRECTORY ${CMAKE_SOURCE_DIR}/${dir}
     DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/${PROJECT_NAME})
 ENDFOREACH(dir)
