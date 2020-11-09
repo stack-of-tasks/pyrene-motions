@@ -1,0 +1,12 @@
+<package format="2">
+  <name>pyrene-motions</name>
+  <version>1.0.0</version>
+  <description>
+    Motion for Pyrene
+  </description>
+  <maintainer email="ostasse@laas.fr">Olivier Stasse</maintainer>
+  <license>BSDv2</license>
+
+  <url>http://github.com/stack-of-tasks/pyrene-motions</url>
+  <author>Olivier Stasse</author>
+</package>
